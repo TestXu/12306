@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--车票查询页面-->
+<TicketQuerPageData>
+    <!--出发地输入框-->
+    <locator name="fromStation_Input" type="id" value="fromStationText"/>
+    <!--出发地选地按钮-->
+    <locator name="fromStation_Button" type="id" value="from_station_imageB"/>
+    <!--目的地输入框-->
+    <locator name="toStation_Input" type="id" value="toStationText"/>
+    <!--目的地选地按钮-->
+    <locator name="toStation_Button" type="id" value="to_station_imageB"/>
+    <!--出发日选择框-->
+    <locator name="startDay_Button" type="id" value="train_date"/>
+    <!--返程日选择框-->
+    <locator name="backDay_Button" type="id" value="back_train_date"/>
+    <!--普通车票-->
+    <locator name="ordinary_Button" type="id" value="sf1"/>
+    <!--学生车票-->
+    <locator name="students_Button" type="id" value="sf2"/>
+    <!--查询按钮-->
+    <locator name="btn-login" type="id" value="a_search_ticket"/>
+</TicketQuerPageData>

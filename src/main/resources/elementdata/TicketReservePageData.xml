@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--12306车票预订页面-->
+<TicketReservePageData>
+    <!--出发地输入框-->
+    <locator name="fromStation_Input" type="id" value="fromStationText"/>
+    <!--出发地选地按钮-->
+    <locator name="fromStation_Button" type="id" value="from_station_imageB"/>
+    <!--目的地输入框-->
+    <locator name="toStation_Input" type="id" value="toStationText"/>
+    <!--目的地选地按钮-->
+    <locator name="toStation_Button" type="id" value="to_station_imageB"/>
+    <!--出发日选择框-->
+    <locator name="startDay_Button" type="id" value="train_date"/>
+    <!--返程日选择框-->
+    <locator name="backDay_Button" type="id" value="back_train_date"/>
+    <!--普通车票-->
+    <locator name="ordinary_Button" type="id" value="sf1"/>
+    <!--学生车票-->
+    <locator name="students_Button" type="id" value="sf2"/>
+    <!--查询按钮-->
+    <locator name="query_Button" type="id" value="a_search_ticket"/>
+    <!--开启自动查询按钮-->
+    <locator name="auto_query" type="id" value="auto_query"/>
+    <!--全部车型-->
+    <locator name="allCar_Button" type="id" value="train_type_btn_all"/>
+    <!--GC-高铁/城际-->
+    <locator name="gcCar_Button" type="id" value="checkbox_u4mwfodFv8"/>
+    <!--D-动车-->
+    <locator name="dCar_Button" type="id" value="checkbox_UkqeMyQbJ5"/>
+    <!--Z-直达-->
+    <locator name="zCar_Button" type="id" value="checkbox_vfGsNrjF1D"/>
+    <!--T-特快-->
+    <locator name="tCar_Button" type="id" value="checkbox_oOmzwTiequ"/>
+    <!--K-快速-->
+    <locator name="kCar_Button" type="id" value="checkbox_FZRLvih4XJ"/>
+    <!--其他车-->
+    <locator name="otherCar_Button" type="id" value="checkbox_xdTjqMbyNh"/>
+    <!--发车时间-->
+    <locator name="startTime_Button" type="id" value="cc_start_time"/>
+</TicketReservePageData>

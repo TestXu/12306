@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--12306主界面-->
+<IndexElementData>
+    <!--购票按钮-->
+    <locator name="buyTicket_Button" type="xpath" value="//div[@id='indexLeftBL']/li[3]/a[text()='购票']"/>
+    <!--余票按钮-->
+    <locator name="lastTicket_Button" type="xpath" value="//div[@id='indexLeftBL']/li[6]/a[text()='余票查询']"/>
+</IndexElementData>
